@@ -4,7 +4,7 @@
 
 Explore Linux safely. Learn by doing. Break nothing.
 
-A bootable Linux learning system built around Ventoy and a custom BCBC menu interface.
+A bootable Linux learning system and a custom BCBC menu interface.
 
 Created by Mikey_Likes_IT in collaboration with ChatGPT
 
