@@ -1,4 +1,4 @@
-![BCBC Linux Learning USB](assets/banner.png)
+[![BCBC Linux Learning USB](assets/banner.png)](https://www.bchicbcow.com/learning_linux.html)
 
 # BCBC Linux Learning USB
 
