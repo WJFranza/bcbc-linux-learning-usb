@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BCBC AI Help</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg-grid"></div>
+  <div class="orb orb-a"></div>
+  <div class="orb orb-b"></div>
+
+  <main class="container">
+    <section class="hero panel glow compact">
+      <p class="eyebrow">AI Assistance</p>
+      <h1>Ask AI for Help</h1>
+      <p class="lead">
+        Open ChatGPT and paste one of the prompts below. These are designed to help beginners understand Linux quickly.
+      </p>
+      <div class="button-grid top-nav">
+        <a class="btn" href="README_FIRST.html">Start Page</a>
+        <a class="btn" href="index.html">Launch GUI</a>
+        <a class="btn primary" href="https://chat.openai.com" target="_blank" rel="noopener">Open ChatGPT</a>
+      </div>
+    </section>
+
+    <section class="prompt-stack">
+      <article class="prompt-card">
+        <h3>Which distro should I try first?</h3>
+        <pre>I am using the BCBC Linux Learning USB.
+I am new to Linux.
+Which distro should I try first and why?</pre>
+        <button class="btn copy-btn" data-copy="I am using the BCBC Linux Learning USB. I am new to Linux. Which distro should I try first and why?">Copy Prompt</button>
+      </article>
+
+      <article class="prompt-card">
+        <h3>Explain desktop environments</h3>
+        <pre>Explain GNOME, KDE, and XFCE in simple terms.
+Tell me which one feels most familiar to Windows users.</pre>
+        <button class="btn copy-btn" data-copy="Explain GNOME, KDE, and XFCE in simple terms. Tell me which one feels most familiar to Windows users.">Copy Prompt</button>
+      </article>
+
+      <article class="prompt-card">
+        <h3>Help with older hardware</h3>
+        <pre>My computer is older and may have limited RAM.
+Which distro on the BCBC Linux Learning USB should I try?</pre>
+        <button class="btn copy-btn" data-copy="My computer is older and may have limited RAM. Which distro on the BCBC Linux Learning USB should I try?">Copy Prompt</button>
+      </article>
+
+      <article class="prompt-card">
+        <h3>Safe live booting</h3>
+        <pre>Explain how live booting Linux works.
+Confirm that it will not change my installed system unless I choose to install.</pre>
+        <button class="btn copy-btn" data-copy="Explain how live booting Linux works. Confirm that it will not change my installed system unless I choose to install.">Copy Prompt</button>
+      </article>
+    </section>
+
+    <div id="copy-status" class="copy-status" aria-live="polite"></div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
