@@ -123,4 +123,4 @@ Special thank you to **ClouDNS** for supporting reliable DNS infrastructure for 
 
 ## 📜 License
 
-Free & open-source under the MIT License Model.  Enyjoy and please let me know how you like it.  I am always open to improve adn I will give you full credit to any and all contributors.
+Free & open-source under the MIT License Model.  Enyjoy and please let me know how you like it.  I am always open to improve and I will give full credit on the project to any and all contributors.
